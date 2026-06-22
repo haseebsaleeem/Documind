@@ -27,7 +27,7 @@ AI-Powered Document Intelligence and Decision Assistant built with Google Gemini
 ### 1. Clone and Setup
 
 ```bash
-git clone https://github.com/yourusername/documind.git
+git clone https://haseebsaleeem/documind.git
 cd documind
 python -m venv venv
 venv\Scripts\activate
