@@ -1,0 +1,12 @@
+# Docker Compose configuration for documind
+version: "3.8"
+services:
+  documind:
+    build: .
+    ports:
+      - "8501:8501"
+    env_file:
+      - .env
+    volumes:
+      - ./chroma_db:/app/chroma_db
+    restart: unless-stopped
