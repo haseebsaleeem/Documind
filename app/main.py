@@ -1,3 +1,4 @@
+from config import config
 import streamlit as st
 from app.config import config
 from app.styles import get_custom_css
